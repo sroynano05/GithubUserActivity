@@ -1,0 +1,27 @@
+{
+  "name": "githubuseractivity",
+  "version": "1.0.0",
+  "description": "okay I have to code this in 3hr challenge without getting help from any  agents and LLM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sroynano05/GithubUserActivity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sroynano05/GithubUserActivity/issues"
+  },
+  "homepage": "https://github.com/sroynano05/GithubUserActivity#readme",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "dotenv": "^17.4.2",
+    "env": "^0.0.2",
+    "process": "^0.11.10"
+  }
+}
