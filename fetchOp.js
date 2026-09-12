@@ -4,7 +4,6 @@ import { username } from './index.js';
 
 export async function fetchData() {
     try {
-        // Step 1: Initial public endpoint request
         const res = await fetch(`https://api.github.com/users/${username}/events`);
         if (!res.ok) {
             throw new Error(`First response failed to fetch.`);
